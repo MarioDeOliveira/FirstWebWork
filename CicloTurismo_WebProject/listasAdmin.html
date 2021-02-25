@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CicloTurismo</title>
+    <link rel="icon" href="img/CicloLogo.png" type="image/x-icon">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+
+    <header>
+        <img src="img/CicloLogo.png" class="img-fluid">
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><button class="btn btn-green"><a href="index.html">LogOut</a></button></li>
+            <li><button class="btn btn-green"><a href="verListas.html">Ver Lista Atualizada</a></button></li>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <h1>MENU DO ADMINISTRADOR</h1>
+        <h2>Registo de Ciclovias</h2>
+        <div class="procura mb-3">
+            <label for="pesquisa" class="col-sm-1 col-form-label">Pesquisa:</label>
+            <div class="col-sm-6">
+                <input type="text" id="pesquisa" name="pesquisa" class="form-control">
+            </div>
+            <div class="col-mb-1">
+                <input type="button" id="btPesquisa" value="Pesquisa" class="btn btn-primary">&nbsp;<input type="button"
+                    id="btLimpaPesquisa" value="Limpar pesquisa" class="btn btn-primary">
+            </div>
+        </div>
+
+        <form id="registoCiclo">
+            <div class="mb-3">
+                <label for="Nome" class="col-sm-1 col-form-label">Nome:</label>
+                <div class="col-sm-6">
+                    <input type="text" id="nome" name="nome" class="form-control" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="descricao" class="col-sm-1 col-form-label">Descrição:</label>
+                <div class="col-sm-6">
+                    <input type="text" id="descricao" name="descricao" class="form-control">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="km" class="col-sm-1 col-form-label">Km:</label>
+                <div class="col-sm-6">
+                    <input type="number" id="km" name="km" class="form-control">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="piso" class="col-sm-1 col-form-label">Piso:</label>
+                <div class="col-sm-6">
+                    <select id="piso" name="piso" class="form-select">
+                        <option value="0">----Seleccionar o piso---</option>
+                        <option value="Asfalto">Asfalto</option>
+                        <option value="Terra">Terra</option>
+                        <option value="Betominoso">Betominoso Pintado</option>
+                        <option value="Misto">Misto (Terra/Asfalto)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="regiao" class="col-sm-1 col-form-label">Região:</label>
+                <div class="col-sm-6">
+                    <select id="regiao" name="regiao" class="form-select">
+                        <option value="0">---Seleccionar Região---</option>
+                        <option value="Norte">Norte</option>
+                        <option value="Centro">Centro</option>
+                        <option value="Sul">Sul</option>
+                        <option value="Madeira">Madeira</option>
+                        <option value="Açores">Açores</option>
+                    </select>
+                </div>
+            </div>
+            <p><input type="submit" id="btRegistar" value="Registar ciclovia" class="btn btn-primary"></p>
+        </form>
+
+        <div class="inform" id="infoRegisto"></div>
+        <h2>Lista de ciclovias</h2>
+
+        <table class="table table-striped table-hover table-bordered" id="tabeladados">
+            <thead>
+                <tr class="table-dark">
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>km</th>
+                    <th>Piso</th>
+                    <th>Região</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="8">Total de ciclovias: <span id="totalRegistos"></span></td>
+                </tr>
+            </tfoot>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p id="infos">O conteúdo deste site está protegido por copyright e é propriedade de Mário Oliveira
+            (CicloTurismo, Lda).
+            O conceito é a de informação para todo o mundo do cilcismo amador ou profissional com o único objectivo
+            de
+            promover e dar a conhecer ciclovias e localidades através do uso da bicicleta.
+        </p>
+        <hr>
+        <img id="footerLogo" src="img/CicloLogo.png">
+        <p> @copyright Mário Oliveira</p>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="jscicloAdmin.js"></script>
+</body>
+
+</html>

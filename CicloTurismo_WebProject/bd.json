@@ -1,0 +1,84 @@
+{
+  "Ciclovias": [
+    {
+      "id": 1,
+      "nome": "Ciclovia de Guimarães",
+      "descricao": "Uma ciclovia recente e moderna, com várias zonas de apoio e descanso. Uma ciclovia urbano partilhada por ciclistas e caminhantes, onde se pode apreciar a cidade de um ponto mais elevado. Aproveitando parte dos caminhos ferroviários antigos da linha Guimarães-Fafe, esta ciclovia faz a ligação desde vários pontos da cidade até á Ecovia de Guimarães-Fafe. Praticamente podemos ir de uma ponta a outra na ciclovia e já existe projectos futuros para se alongar nas vilas do concelho ao longo das margens do rio Ave.",
+      "km": 8,
+      "piso": "Misto (Terra/Asfalto)",
+      "regiao": "Norte"
+    },
+    {
+      "id": 2,
+      "nome": "Ecovia de Guimarães",
+      "descricao": "Com inicio na vila de Mesão Frio, freguesia á entrada de Guimarães na estrada que liga Guimarães a Fafe, a ecovia de Guimarães faz o circuito da antiga linha ferroviária que ligava esta cidade a Fafe. Esta ecovia é divida pelos dois concelhos em que cada uma delas assume as responsabilidades de manutenção. Ecovia onde se cicula em pleno entre a natureza e as aldeias mais rurais dos concelhos. Com pontos de descanso e de água para quem utiliza.",
+      "km": 13.5,
+      "piso": "Asfalto",
+      "regiao": "Norte"
+    },
+    {
+      "id": 3,
+      "nome": "Ecovia do Vez",
+      "descricao": "Uma ciclovia que acompanha toda a margem do rio Vez em Arcos de Valdevez. Esta ecovia surge no seguimento de outra, a ecovia do Lima. Estas duas ecovias perfazem um um conjunto de percursos verdes pelas margens do rio que deu nome á vila.",
+      "km": 33,
+      "piso": "Terra",
+      "regiao": "Norte"
+    },
+    {
+      "id": 4,
+      "nome": "Ecovia do Tâmega",
+      "descricao": "A Ecovia do Tâmega, inicialmente denominada Caminho de Ferro do Vale do Tâmega, ligava a estação da Livração (Marco de canavezes), da linha do Douro, numa extensão de 52,733 km. No dia 1 de Janeiro de 1990 foi desactivado todo o serviço comercial ente Amarante e Arco de Baúlhe, deste ramal ferroviário, dando assim lugar a uma via verde destinada a passeios pedestres, de bicicleta ou qualquer outro meio não poluente.",
+      "km": 53.7,
+      "piso": "Misto (Terra/Asfalto)",
+      "regiao": "Norte"
+    },
+    {
+      "id": 5,
+      "nome": "Ciclovia de Ovar",
+      "descricao": "Se tropeçar numa ciclovia, não se admire, muito provavelmente está em Ovar! Com mais de 40 km construidos e em pleno há vários anos, em treze percursos cicláveis desde a cidade de Esmoriz, a norte do concelho, até à Ria de Aveiro, a Sul. Passando pelas áreas de mata, dunas e praias, ou pelo cdntro urbano de Ovar. Este municipio vareiro está repleto de pistas de bicicleta, sendo um exemplo a seguir. ",
+      "km": "40",
+      "piso": "Misto (Terra/Asfalto)",
+      "regiao": "Centro"
+    },
+    {
+      "id": 6,
+      "nome": "Ecovia do Dão",
+      "descricao": "São mais de 48 km de Ecopista, assentes na antiga linha do Dão, ou ramal de Viseu, e que unem estes tês concelhos através de uma forma suave de mobilidade destinada ao uso público, como via de comunicação para o lazer, o desporto, actividades recreativas, culturais e de proteção e promoção ambiental.",
+      "km": "48",
+      "piso": "Misto (Terra/Asfalto)",
+      "regiao": "Centro"
+    },
+    {
+      "id": 7,
+      "nome": "Ciclovia de Évora",
+      "descricao": "A autarquia ocal criou percursos ambientais de Évora. Uma rede de vários itinerários em redor da cidade, até aos limites do concelho.Utilizando antigos caminhos publicos, vias ferroviárias desactivadas ou ao longo do aqueduto estas ecovias podem ser percorridas tanto a pé como de bicicleta numa extensão de 100km.",
+      "km": 100,
+      "piso": "Misto (Terra/Asfalto",
+      "regiao": "Sul"
+    },
+    {
+      "id": 8,
+      "nome": "Ciclovia de Albufeira",
+      "descricao": "O concelho de Albufeira oferece-nos vários km de ciclovias que percorrem as principais artérias da cidade. Para além desta que percorre todo o centro histórico da cidade, os municipio de albufeira foi o terceiro do Algarve a construir e inaugurar da Ecovia do Litoral, que agora faz parte da Rota da Costa Atlântica, o Eurovelo 1.",
+      "km": 35,
+      "piso": "Betominoso Pintado",
+      "regiao": "Sul"
+    },
+    {
+      "id": 9,
+      "nome": "Ciclovia de Ponta Delgada",
+      "descricao": "Localizado na maior ilha dos Açores, o municipio de Ponta Delgada não se alheou das deslocações de bicicleta e pôs em prática o plano de mobilidade sustentável, com particular destaque para a promoção a mobilidade na cidade.",
+      "km": 2.7,
+      "piso": "Asfalto",
+      "regiao": "Açores"
+    },
+    {
+      "id": 10,
+      "nome": "Ciclovia do Funchal",
+      "descricao": "A câmara do Funchal também adoptou medidas de mobilidade suave na cidade com a implementação da rede ciclável do Funchal no ano de 2009. Estas ações de mobilidade inserem-se no projecto de requalificação urbana e valorização ambiental da Zona da frente de mar turistica.",
+      "km": 2.7,
+      "piso": "Asfalto",
+      "regiao": "Madeira"
+    }
+  ]
+}
